@@ -1,0 +1,131 @@
+nav {
+  background-image: url("/assets/home-bg.png");
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+}
+
+#navbar {
+  position: relative;
+  text-decoration: none;
+}
+#navbar .home-btn {
+  position: absolute;
+  top: -10px;
+  right: 300px;
+  width: 101px;
+  height: 60px;
+  flex-shrink: 0;
+  background-color: #4E3838;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  opacity: 0.9;
+  font-size: 25px;
+  font-family: "Lusitana", sans-serif;
+}
+#navbar .gallery-btn {
+  position: absolute;
+  top: -10px;
+  right: 179px;
+  width: 101px;
+  height: 60px;
+  flex-shrink: 0;
+  background-color: #4E3838;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  opacity: 0.9;
+  font-size: 25px;
+  font-family: "Lusitana", sans-serif;
+}
+#navbar .contact-btn {
+  position: absolute;
+  top: -10px;
+  right: 20px;
+  width: 140px;
+  height: 60px;
+  flex-shrink: 0;
+  background-color: #4E3838;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  opacity: 0.9;
+  font-size: 25px;
+  font-family: "Lusitana", sans-serif;
+}
+
+.top-text {
+  position: relative;
+  font-family: "Lusitana", sans-serif;
+}
+.top-text .main-text {
+  position: absolute;
+  top: 80px;
+  left: 335px;
+  width: 945px;
+  height: 377px;
+  font-size: 24px;
+}
+
+.first-images {
+  position: relative;
+}
+.first-images .bm-logo {
+  position: absolute;
+  top: 535px;
+  left: 100px;
+  width: 600px;
+  height: 800px;
+}
+.first-images .girl-one {
+  position: absolute;
+  top: 535px;
+  right: -60px;
+  width: 780px;
+  height: 800px;
+  padding: 0;
+  margin: 0;
+}
+
+.second-image {
+  position: relative;
+}
+.second-image .girl-two {
+  position: absolute;
+  top: 1335px;
+  left: 30px;
+  width: 600px;
+  height: 800px;
+}
+.second-image .top-part {
+  position: absolute;
+  top: 1550px;
+  left: 790px;
+  width: auto;
+  height: auto;
+  font-size: 50px;
+  font-family: "Lustria", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.second-image .line {
+  position: absolute;
+  top: 1670px;
+  left: 890px;
+  width: 200px;
+  height: 5px;
+  border: none;
+  background-color: #000;
+}
+.second-image .bottom-part {
+  position: absolute;
+  top: 1750px;
+  left: 745px;
+  width: auto;
+  height: auto;
+  font-size: 50px;
+  font-family: "Lustria", sans-serif;
+}
+
+/*# sourceMappingURL=styles.css.map */
