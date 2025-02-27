@@ -10,9 +10,71 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lusitana:wght@400;700&family=Lustria&family=Luxurious+Roman&display=swap" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/gallery.css">
 </head>
 <body>
+    <section>
+        <div>
+            <nav id="navbar">
+                <img src="assets/beautifully-made-logo.svg" alt="Beautifully Made Logo" class="logo">
+                <button class="home-btn" onclick="window.location.href='index.html'">Home</button>
+                <button class="gallery-btn" onclick="window.location.href='gallery.html'">Gallery</button>
+                <button class="contact-btn" onclick="window.location.href='contact.html'">Contact Us</button>
+            </nav>
+        </div>
+        <div>
+            <h1 id="gallery-title"> GALLERY </h1>
+        </div> 
+    </section>
 
+    <!--Gallery Photo Section-->
+    <section>
+        <div class="container text-center mt-5">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4">
+              <div class="col">
+                <img class="img-fluid rounded gallery-img" src="assets/gallery-first-img.svg" alt="Beautifully Made Gallery Image 1">
+              </div>
+              <div class="col">
+                <img class="img-fluid rounded gallery-img" src="assets/gallery-scnd-img.png" alt="Beautifully Made Gallery Image 2">
+              </div>
+              <div class="col">
+                <img class="img-fluid rounded gallery-img" src="assets/gallery-third-img.svg" alt="Beautifully Made Gallery Image 3">
+              </div>
+              <div class="col">
+                <img class="img-fluid rounded gallery-img" src="assets/gallery-fourth-img.svg" alt="Beautifully Made Gallery Image 4">
+              </div>
+              <div class="col">
+                <img class="img-fluid rounded gallery-img" src="assets/gallery-fifth-img.svg" alt="Beautifully Made Gallery Image 5">
+              </div>
+              <div class="col">
+                <img class="img-fluid rounded gallery-img" src="assets/gallery-sixth-img.svg" alt="Beautifully Made Gallery Image 6">
+              </div>
+              <div class="col">
+                <img class="img-fluid rounded gallery-img" src="assets/gallery-seventh-img.svg" alt="Beautifully Made Gallery Image 7">
+              </div>
+              <div class="col">
+                <img class="img-fluid rounded gallery-img" src="assets/gallery-eigth-img.png" alt="Beautifully Made Gallery Image 8">
+              </div>
+              <div class="col">
+                <img class="img-fluid rounded gallery-img" src="assets/gallery-ninth-img.svg" alt="Beautifully Made Gallery Image 9">
+              </div>
+            </div>
+        </div>
+        
+        <!-- Modal for image expansion -->
+        <div class="modal fade" id="imageModal" tabindex="-1" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body text-center">
+                        <img id="modalImage" class="img-fluid rounded" src="" alt="Expanded Image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="app.js"></script>
 </body>
 </html>
