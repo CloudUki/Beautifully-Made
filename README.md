@@ -9,3 +9,9 @@ To have SCSS compiled into CSS run this command
 ```sh
 sass --watch styles.scss:styles.css
 ```
+```sh
+sass --watch gallery.scss:gallery.css
+```
+```sh
+sass --watch contact.scss:contact.css
+```
